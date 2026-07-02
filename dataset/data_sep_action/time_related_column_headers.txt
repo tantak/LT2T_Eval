@@ -1,0 +1,500 @@
+================================================================================
+LIST OF COLUMN HEADERS (table_header) WITH TIME-RELATED COLUMNS
+================================================================================
+
+1. ['date', 'visiting team', 'final score', 'host team', 'stadium']
+
+2. ['region', 'date', 'label', 'format', 'catalog']
+
+3. ['opposing team', 'against', 'date', 'venue', 'status']
+
+4. ['year', 'start', 'qual', 'rank', 'finish', 'laps']
+
+5. ['season', 'episodes', 'timeslot ( est )', 'season premiere', 'season finale', 'tv season', 'rank', 'viewers ( in millions )']
+
+6. ['event', 'time', 'venue', 'date', 'notes']
+
+7. ['week', 'date', 'opponent', 'result', 'attendance']
+
+8. ['home team', 'home team score', 'away team', 'away team score', 'venue', 'crowd', 'date']
+
+9. ['date', 'opponent', 'location', 'result', 'attendance']
+
+10. ['circuit', 'location', 'date', 'pole position', 'fastest lap', 'winner']
+
+11. ['player', 'no', 'nationality', 'position', 'years for grizzlies', 'school / club team']
+
+12. ['region', 'date', 'label', 'format', 'catalogue']
+
+13. ['tournament', 'surface', 'week', 'winner', 'finalist', 'semifinalists']
+
+14. ['season', 'network', 'timeslot', 'season premiere', 'season finale', 'tv season', 'rank rank denotes the relative position of the television series with respect to other prime time shows on the cw , fox , nbc , cbs , and abc', 'viewers in millions', 'rating rating is the percentage of all households tuned into the program']
+
+15. ['date', 'tournament', 'winning score', 'margin of victory', 'runner ( s ) - up']
+
+16. ['date', 'visitor', 'score', 'home', 'decision', 'attendance', 'record']
+
+17. ['game', 'date', 'team', 'score', 'high points', 'high rebounds', 'high assists', 'location attendance', 'series']
+
+18. ['date', 'venue', 'score', 'result', 'competition']
+
+19. ['election number', 'election date', 'district', 'province', 'took office', 'left office']
+
+20. ['year', 'tournament', 'surface', 'partner', 'opponents in the final', 'score']
+
+21. ['calls', 'frequency', 'branding', 'format', 'timeslot', 'group owner']
+
+22. ['rank', 'lane', 'name', 'nationality', 'time']
+
+23. ['year', 'class', 'team', 'points', 'wins']
+
+24. ['year', 'award', 'nominated work', 'category', 'result']
+
+25. ['brand', 'year founded', 'year began making autos', 'year joined gm', 'markets served today']
+
+26. ['title', 'season', 'winner', 'score', 'runner - up', 'venue', 'attendance']
+
+27. ['school', 'location', 'mascot', 'county', 'enrollment 08 - 09', 'ihsaa class', 'year joined', 'previous conference']
+
+28. ['game', 'date', 'team', 'score', 'high points', 'high rebounds', 'high assists', 'location attendance', 'record']
+
+29. ['no in series', 'no in season', 'title', 'country', 'project', 'status at production', 'original air date']
+
+30. ['tie no', 'home team', 'score', 'away team', 'date']
+
+31. ['class', 'number ( s )', 'quantity', 'year ( s ) of manufacture', 'type']
+
+32. ['riding', "candidate 's name", 'gender', 'residence', 'occupation', 'votes', 'rank']
+
+33. ['date', 'opponent', 'site', 'result', 'attendance']
+
+34. ['no in series', 'no in season', 'title', 'directed by', 'written by', 'featured character ( s )', 'original air date', 'us viewers ( million )']
+
+35. ['season', 'series', 'team', 'races', 'wins', 'poles', 'f / laps', 'podiums', 'points', 'position']
+
+36. ['year', 'group', 'award', 'film / show', 'result']
+
+37. ['week', 'date', 'opponent', 'result', 'game site', 'record', 'attendance']
+
+38. ['year', 'qual', 'rank', 'finish', 'laps']
+
+39. ['year', 'class', 'tyres', 'team', 'co - drivers', 'laps', 'pos', 'class pos']
+
+40. ['home team', 'home team score', 'away team', 'away team score', 'venue', 'date']
+
+41. ['school', 'location', 'mascot', 'county', 'year joined', 'previous conference', 'year left', 'conference joined']
+
+42. ['date', 'opponents', 'result f - a', 'attendance', 'group position']
+
+43. ['no in series', 'title', 'written by', 'directed by', 'original air date', 'tv broadcast']
+
+44. ['episode', 'original airdate ( uk )', 'episode title', 'doctor who episode', 'webcast link']
+
+45. ['rank', 'show', 'number of viewers', 'date', 'network']
+
+46. ['iwcr no', 'name', 'wheel arrangement', 'sr no', 'year made', 'year withdrawn']
+
+47. ['sd', 'rk', 'player', 'points', 'points defending', 'points won', 'new points', 'status']
+
+48. ['season', 'div', 'tms', 'pos', 'attendance / g', "emperor 's cup"]
+
+49. ['round', 'player', 'nationality', 'nhl team', 'college / junior / club team ( league )']
+
+50. ['position', 'artist', 'single', 'year', 'weeks']
+
+51. ['week', 'date', 'opponent', 'location', 'time ( et )', 'result', 'record']
+
+52. ['edition', 'zone', 'round', 'date', 'against', 'surface', 'opponent', 'outcome', 'result']
+
+53. ['race', 'circuit', 'date', 'pole position', 'fastest lap', 'winning driver', 'constructor', 'tyre', 'report']
+
+54. ['ranking', 'nationality', 'name', 'years', 'goals']
+
+55. ['district', 'incumbent', 'party', 'first elected', 'result', 'candidates']
+
+56. ['date', 'home captain', 'away captain', 'venue', 'result']
+
+57. ['year ( ceremony )', 'film title used in nomination', 'language ( s )', 'director', 'result']
+
+58. ['planned pinnacle height', 'expected year of completion', 'structural type', 'country', 'town']
+
+59. ['no in series', 'no in season', 'title', 'directed by', 'written by', 'us viewers ( millions )', 'original us air date', 'prod code']
+
+60. ['year', 'entrant', 'chassis', 'engine', 'pts']
+
+61. ['outcome', 'year', 'championship', 'surface', 'opponent in the final', 'score in the final']
+
+62. ['round', 'player', 'position', 'nationality', 'college / junior / club team ( league )']
+
+63. ['manager', 'period', 'played', 'drawn', 'lost', 'win %']
+
+64. ['result', 'date', 'race', 'venue', 'group', 'distance', 'weight ( kg )', 'jockey', 'winner / 2nd']
+
+65. ['round', 'overall', 'player', 'position', 'college']
+
+66. ['year', 'competition', 'venue', 'position', 'notes']
+
+67. ['res', 'record', 'opponent', 'method', 'round', 'time', 'location']
+
+68. ['tournament', 'surface', 'week', 'winner and score', 'finalist', 'semifinalists']
+
+69. ['year', 'competition', 'date', 'location', 'score', 'result']
+
+70. ['name', 'street address', 'years as tallest', 'height ft ( m )', 'floors']
+
+71. ['res', 'record', 'opponent', 'method', 'event', 'round', 'location']
+
+72. ['game', 'date', 'opponent', 'result', 'wildcats points', 'opponents', 'record']
+
+73. ['year', 'tournaments played', 'cuts made', 'wins', '3rds', 'top 10s', 'best finish', 'earnings', 'money list rank', 'scoring average']
+
+74. ['year', 'starts', 'wins', 'top 5', 'top 10', 'poles', 'avg start', 'avg finish', 'winnings', 'position', 'team ( s )']
+
+75. ['rank', 'rowers', 'country', 'time', 'notes']
+
+76. ['date', 'episode', 'performer 1', 'performer 2', 'performer 3', 'performer 4']
+
+77. ['year', 'competition', 'venue', 'position', 'event', 'notes']
+
+78. ['episode number', 'air date', 'guest host', 'musical guest ( song performed )', 'who knows the most about the guest host panelists', 'coat of cash wearing celebrity']
+
+79. ['year', 'finish position', '1st day', '2nd day', '3rd day', '4th day']
+
+80. ['name', 'street address', 'years as tallest', 'height ft / m', 'floors']
+
+81. ['name', 'length', 'tonnage', 'built by', 'year', 'engines', 'horsepowers', 'former names']
+
+82. ['season', 'champion', 'runner - up', 'third place', 'top scorer', 'best player']
+
+83. ['year', 'entrant', 'chassis', 'engine', 'points']
+
+84. ['player', 'no', 'nationality', 'position', 'years for jazz', 'school / club team']
+
+85. ['date', 'opponent', 'score', 'loss', 'attendance', 'series']
+
+86. ['stage', 'date', 'course', 'distance', 'winner', 'race leader']
+
+87. ['date', 'opponent', 'result', 'game site', 'game time', 'record']
+
+88. ['date', 'score', 'set 1', 'set 2', 'set 3', 'set 4', 'set 5', 'total']
+
+89. ['athlete', 'event', 'elimination poule', 'round of 16', 'quarterfinals', 'semifinals', 'final']
+
+90. ['game', 'date', 'team', 'score', 'high points', 'high assists', 'location attendance', 'record']
+
+91. ['date of release', 'title', 'billboard peak', 'riaa cert', 'label']
+
+92. ['year', 'tournament', 'venue', 'result', 'extra']
+
+93. ['year', 'result', 'award', 'category', 'film or series', 'character']
+
+94. ['season', 'races', 'wins', 'podiums', 'poles', 'fastest laps']
+
+95. ['', 'episode', 'writer', 'director', 'original air date', 'viewing figure']
+
+96. ['start', 'qual', 'rank', 'finish', 'laps']
+
+97. ['season', 'series', 'team name', 'races', 'wins', 'poles', 'f / laps', 'podiums', 'points', 'position']
+
+98. ['year', 'location', 'number of teams', 'player of the tournament', 'top goalscorer ( s )', 'best goalkeeper']
+
+99. ['name', 'position', 'number', 'season', 'acquisition via']
+
+100. ['rank', 'first quarter', 'second quarter', 'third quarter', 'fourth quarter']
+
+101. ['date', 'opponents', 'h / a', 'result f - a', 'scorers']
+
+102. ['week', 'date', 'opponent', 'result', 'tv time', 'attendance']
+
+103. ['rank', 'actor', 'character', 'soap opera', 'years', 'duration']
+
+104. ['year', 'date', 'driver', 'team', 'manufacturer', 'laps', '-', 'race time', 'average speed ( mph )', 'report']
+
+105. ['round', 'pick', 'overall', 'name', 'position', 'college']
+
+106. ['goal', 'date', 'venue', 'score', 'result', 'competition']
+
+107. ['name', 'years', 'gender', 'area', 'authority', 'decile', 'roll']
+
+108. ['res', 'record', 'opponent', 'method', 'event', 'round', 'time', 'location']
+
+109. ['year', 'category', 'film', 'result', 'lost to']
+
+110. ['year', 'class', 'team', 'machine', 'points', 'wins']
+
+111. ['player', 'years', 'games played', 'goals allowed', 'goals against average']
+
+112. ['warship', 'tons ( lton )', 'horse - power', 'speed ( knots )', 'main artillery', 'built year']
+
+113. ['season', 'team', 'wins', 'losses', 'draws']
+
+114. ['actor', 'character', 'duration', 'no of series', 'episodes']
+
+115. ['outcome', 'year', 'tournament', 'opponent', 'score']
+
+116. ['name', 'date', 'goals', 'assists', 'team', 'venue', 'opponent', 'competition', 'total goals', 'total assists']
+
+117. ['rank', 'rider', 'team', 'speed', 'time']
+
+118. ['athlete', 'event', 'round of 32', 'round of 16', 'quarterfinals', 'semifinals']
+
+119. ['artist', 'album', 'track ( s )', 'date', 'label']
+
+120. ['year', 'chassis', 'engine', 'start', 'finish', 'entrant']
+
+121. ['model number', 'sspec number', 'cores', 'frequency', 'turbo', 'l2 cache', 'l3 cache', 'gpu model', 'gpu frequency', 'socket', 'i / o bus', 'release date', 'part number ( s )', 'release price ( usd )']
+
+122. ['season', 'series', 'team name', 'races', 'poles', 'wins', 'points', 'final placing']
+
+123. ['game', 'date', 'opponent', 'result', 'cowboys points', 'opponents', 'record']
+
+124. ['', 'week 1', 'week 2', 'week 3', 'week 4', 'week 5']
+
+125. ['week', 'date', 'opponent', 'result', 'record']
+
+126. ['year', 'team', 'chassis', 'engine', 'rank', 'points']
+
+127. ['year', 'result', 'matches', 'wins', 'draws', 'losses']
+
+128. ['year', 'date', 'winner', 'result', 'loser', 'attendance', 'location']
+
+129. ['player', 'fcsl team', 'years played', 'year drafted', 'round', 'mlb team']
+
+130. ['book series', 'author', 'original language', 'no of installments', 'first published', 'approximate sales']
+
+131. ['no in series', 'no in season', 'title', 'directed by', 'written by', 'original air date', 'us viewers ( million )']
+
+132. ['freq', 'call', 'city', 'owner', 'start', 'day power ( w )', 'night power', 'nickname', 'format', 'stereo']
+
+133. ['year', 'team', 'co - drivers', 'class', 'laps', 'pos', 'class pos']
+
+134. ['year', 'group', 'award', 'film', 'result']
+
+135. ['team', 'outgoing head coach', 'manner of departure', 'date of vacancy', 'position in table', 'incoming head coach', 'date of appointment']
+
+136. ['edition', 'round', 'date', 'partner', 'surface', 'opponents', 'result']
+
+137. ['rank', 'circuit', 'headquarters', 'screens', 'sites']
+
+138. ['date', 'location', 'country', 'event', 'winner', 'runner - up']
+
+139. ['year', 'starts', 'wins', 'top 5', 'top 10', 'poles', 'avg start', 'avg finish', 'winnings', 'position']
+
+140. ['no', '-', 'original airdate', 'performer 1', 'performer 2', 'performer 3', 'performer 4', 'us viewers ( millions )']
+
+141. ['match', 'date', 'tournament', 'location', 'opponent team', 'score']
+
+142. ['episode', 'air date', 'timeslot', '18 - 49', 'viewers']
+
+143. ['year', 'theme', 'artist', 'issue price', 'special notes']
+
+144. ['rank', 'name', 'years', 'matches', 'goals']
+
+145. ['', 'title', 'director', 'writer ( s )', 'viewers', 'air date', 'production code']
+
+146. ['driver', 'constructor', 'laps', 'time / retired', 'grid']
+
+147. ['week', 'date', 'opponent', 'location', 'final score', 'attendance', 'record']
+
+148. ['year', 'dates', 'champion', 'country', 'score', 'to par', 'margin of victory', 'purse ( us )', "winner 's share"]
+
+149. ['school', 'location', 'mascot', 'county', 'ihsaa class', 'year joined', 'previous conference']
+
+150. ['outcome', 'date', 'tournament', 'surface', 'opponent', 'score']
+
+151. ['class', 'wheels', 'date', 'no built', 'loco nos', 'comments']
+
+152. ['week', 'date', 'time', 'opponent', 'result', 'game site', 'nfl recap', 'record']
+
+153. ['year', 'date', 'stages', 'distance', 'winner']
+
+154. ['letters', 'organization', 'nickname', 'founding date', 'founding university', 'type', 'canadian chapters']
+
+155. ['year', 'artist', 'album', 'record label', 'weeks at number one']
+
+156. ['date', 'opponent', 'score', 'loss', 'attendance', 'record', 'stadium']
+
+157. ['district', 'vacator', 'reason for change', 'successor', 'date successor seated']
+
+158. ['player', 'country', 'year ( s ) won', 'total', 'to par', 'finish']
+
+159. ['rnd', 'race', 'date', 'location', 'pole position', 'fastest lap', 'race winner', 'constructor', 'report']
+
+160. ['date', 'tournament', 'surface', 'opponent in the final', 'score']
+
+161. ['date', 'tournament', 'surface', 'partner', 'opponents', 'score']
+
+162. ['episode', 'first broadcast', 'seans team', 'jons team', 'scores']
+
+163. ['year', 'mens singles', 'womens singles', 'mens doubles', 'womens doubles', 'mixed doubles']
+
+164. ['model number', 'frequency', 'l2 cache', 'ht', 'mult 1', 'v core', 'tdp', 'socket', 'release date', 'part number ( s )']
+
+165. ['country', 'skip', 'w', 'l', 'pf', 'pa', 'ends won', 'ends lost', 'blank ends', 'stolen ends', 'shot %']
+
+166. ['track', 'song title', 'writer ( s )', 'original artist', 'original release', 'length']
+
+167. ['date', 'opponent', 'score', 'loss', 'record']
+
+168. ['race', 'dist ( f )', 'course', 'class', 'prize ( k )', 'odds', 'runners', 'placing', 'margin', 'time', 'jockey', 'trainer']
+
+169. ['artist', 'country of origin', 'period active', 'release - year of first charted record', 'genre', 'claimed sales']
+
+170. ['year', 'class', 'team', 'points', 'rank', 'wins']
+
+171. ['game', 'date', 'opponent', 'score', 'high points', 'high rebounds', 'high assists', 'location', 'record']
+
+172. ['date', 'time', 'opponent', 'location', 'score']
+
+173. ['class', 'railway number ( s )', 'quantity', 'year ( s ) of manufacture', 'type']
+
+174. ['year', 'competition', 'venue', 'position', 'event']
+
+175. ['round', 'pick', 'player', 'position', 'school / club team']
+
+176. ['serial', 'airborne unit', 'troop carrier group', 'of c - 47s', 'uk base', 'drop zone', 'drop zone time']
+
+177. ['class', 'wheels', 'date', 'builder', 'no built', '1919 nos', 'lms class', 'lms nos']
+
+178. ['week', 'date', 'opponent', 'result', 'game site', 'attendance']
+
+179. ['artist', 'country', 'number - one single ( s )', 'year', 'weeks at 1', 'straight to 1']
+
+180. ['year', 'division', 'league', 'reg season', 'playoffs', 'open cup']
+
+181. ['player', 'nationality', 'position', 'years for jazz', 'school / club team']
+
+182. ['name', 'team', 'laps', 'time / retired', 'grid', 'points']
+
+183. ['year', 'round', 'opponent', 'result', 'bsu head coach']
+
+184. ['region', 'land area ( km 2 )', 'rainfall by depth ( mm / year )', 'rainfall by volume ( km 3 / year )', 'surface run off ( km 3 / year )', 'infiltration ( km 3 / year )', 'evapotranspiration ( km 3 / year )']
+
+185. ['election', 'of candidates nominated', 'of seats won', 'of total votes', '% of popular vote']
+
+186. ['issued title', 'year', 'label', 'format', 'catalog']
+
+187. ['game', 'date', 'team', 'score', 'location attendance', 'record']
+
+188. ['lane', 'athlete', 'nationality', 'time', 'react']
+
+189. ['outcome', 'date', 'tournament', 'surface', 'partner', 'opponents in final', 'score in final']
+
+190. ['player', 'nationality', 'position', 'years for grizzlies', 'school / club team']
+
+191. ['date', 'opponent', 'score', 'loss', 'attendance', 'record', 'arena', 'points']
+
+192. ['week', 'date', 'opponent', 'result', 'record', 'game site', 'attendance']
+
+193. ['year', 'location', 'gold', 'silver', 'bronze']
+
+194. ['score', 'batsmen', 'against', 'location', 'year']
+
+195. ['country', 'name', 'host', 'channel', 'first premiere', 'regular judge', 'seasons']
+
+196. ['game', 'date', 'team', 'score', 'high points', 'high rebounds', 'location attendance', 'series', 'streak']
+
+197. ['model', 'seats', 'period', 'built', 'country']
+
+198. ['rank', 'name', 'years', 'league', 'total']
+
+199. ['round', 'pick', 'player', 'position', 'college']
+
+200. ['year', 'category', 'champions', 'runners - up', 'score']
+
+201. ['rank', 'player', 'year', 'opponent', 'passing yards', 'rushing yards', 'total offense']
+
+202. ['no', 'player', 'height', 'position', 'year born', 'current club']
+
+203. ['year', 'electors', 'votes', 'share of votes', 'candidate']
+
+204. ['year', 'tournament', 'venue', 'result', 'event']
+
+205. ['year', 'tournaments played', 'cuts made', 'wins', 'top 10s', 'best finish', 'earnings', 'money list rank', 'scoring average', 'scoring rank']
+
+206. ['series', 'season', 'title', 'directed by', 'written by', 'original air date', 'us viewers ( millions )']
+
+207. ['year', "men 's singles", "women 's singles", "men 's doubles", "women 's doubles", 'mixed doubles']
+
+208. ['rank', 'name', 'height ft ( m )', 'floors', 'year']
+
+209. ['tie no', 'home team', 'score', 'away team', 'report', 'attendance']
+
+210. ['number', 'player', 'years active', 'caps', 'tries', 'conversions', 'penalties', 'drop goals', 'average score', 'score']
+
+211. ['pos', 'constructor', 'chassis', 'starts', 'finishes', 'wins', 'podiums', 'stage wins', 'power stage wins', 'points']
+
+212. ['year', 'champion', 'score', 'runner - up', 'location', 'semi - finalist 1', 'semi - finalist 2']
+
+213. ['time', 'athlete', 'nationality', 'location of race', 'date']
+
+214. ['season', 'episodes', 'first air date', 'last air date', 'timeslot', 'dvd release']
+
+215. ['rank', 'athlete', 'country', 'time', 'notes']
+
+216. ['year', 'office', 'candidate', 'popular votes', 'percentage']
+
+217. ['rank', 'name', 'height ft / m', 'floors', 'year']
+
+218. ['model', 'launch year', 'ram ( mib )', 'rom ( mib )', 'slots', 'wifi', 'bluetooth']
+
+219. ['region', 'year', 'name', 'format ( s )', 'label']
+
+220. ['date', 'cover model', 'centerfold model', 'interview subject', '20 questions', 'pictorials']
+
+221. ['year', 'award', 'category', 'nominated work', 'result']
+
+222. ['season', 'competition', 'round', 'opponents', 'home leg', 'away leg', 'aggregate']
+
+223. ['team', 'outgoing manager', 'manner of departure', 'date of vacancy', 'replaced by', 'date of appointment', 'position in table']
+
+224. ['map', 'county', 'capital', 'population ( 2008 )', 'area', 'created']
+
+225. ['episode', 'title', 'writer', 'director', 'original airdate']
+
+226. ['year', 'series title', 'chinese title', 'role', 'channel']
+
+227. ['number', 'artist', 'album', '1st week sales', '1st week position']
+
+228. ['year', 'category', 'recipients and nominees', 'role / episode', 'result']
+
+229. ['season', 'division', 'wins', 'losses', 'ties', 'final position', 'notes']
+
+230. ['year', 'group', 'round', 'date', 'location', 'surface', 'score', 'outcome']
+
+231. ['year', 'class', 'team', 'bike', 'races', 'wins', 'podiums', 'poles', 'f laps', 'points']
+
+232. ['player', 'score', 'balls', 'opponent', 'ground']
+
+233. ['year', 'network', 'lap - by - lap', 'pit reporters', 'host']
+
+234. ['name', 'country', 'type', 'moving from', 'transfer window', 'ends', 'transfer fee']
+
+235. ['date', 'visitor', 'score', 'home', 'decision', 'attendance', 'series']
+
+236. ['year', 'music video', 'length', 'album', 'official mv on youtube']
+
+237. ['episode', 'title', 'directed by', 'written by', 'originalairdate', 'ratings']
+
+238. ['date', 'visitor', 'score', 'home', 'leading scorer', 'record']
+
+239. ['race name', 'circuit', 'city / location', 'date', 'pole position', 'fastest lap', 'winning driver', 'winning team', 'report']
+
+240. ['year', 'competition', 'venue', 'position', 'event', 'time']
+
+241. ['player', 'no ( s )', 'height in ft', 'position', 'years for rockets', 'school / club team / country']
+
+242. ['territory', 'broadcaster', 'channel', 'launched', 'closed']
+
+243. ['season', 'ep', 'season premiere', 'season finale', 'ranking', 'viewers ( households in millions )', 'rating']
+
+244. ['class', 'type', 'fleet numbers', 'quantity made', 'manufacturer', 'date made', '1958 cié', '1958 uta', 'date withdrawn']
+
+245. ['season', 'games', 'won', 'lost', 'tied', 'points', 'goals for', 'goals against', 'standing']
+
+246. ['candidate', 'money raised , 2q', 'loans received , 2q', 'money spent , 2q', 'total receipts', 'cash on hand']
+
+247. ['year', 'conference', 'city', 'country', 'local host ( s )']
+
+
+Total: 247 unique column header configurations

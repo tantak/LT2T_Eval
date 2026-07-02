@@ -1,0 +1,137 @@
+================================================================================
+TIME-RELATED COLUMN NAMES
+================================================================================
+
+1. 1st day
+2. 1st week position
+3. 1st week sales
+4. 2nd day
+5. 3rd day
+6. 4th day
+7. air date
+8. attendance
+9. attendance / g
+10. avg finish
+11. avg start
+12. best finish
+13. blank ends
+14. broadcaster
+15. built year
+16. candidate
+17. candidate 's name
+18. candidates
+19. created
+20. date
+21. date made
+22. date of appointment
+23. date of release
+24. date of vacancy
+25. date successor seated
+26. date withdrawn
+27. dates
+28. day power ( w )
+29. doctor who episode
+30. drop zone time
+31. duration
+32. dvd release
+33. election date
+34. ends
+35. ends lost
+36. ends won
+37. episode
+38. episode number
+39. episode title
+40. episodes
+41. evapotranspiration ( km 3 / year )
+42. expected year of completion
+43. finish
+44. finish position
+45. finishes
+46. first air date
+47. first broadcast
+48. first published
+49. first quarter
+50. founding date
+51. fourth quarter
+52. game time
+53. gender
+54. ground
+55. headquarters
+56. infiltration ( km 3 / year )
+57. last air date
+58. launch year
+59. location attendance
+60. markets served today
+61. no in season
+62. of candidates nominated
+63. original air date
+64. original airdate
+65. original airdate ( uk )
+66. original release
+67. original us air date
+68. originalairdate
+69. period
+70. period active
+71. points defending
+72. quarterfinals
+73. race time
+74. rainfall by depth ( mm / year )
+75. rainfall by volume ( km 3 / year )
+76. rank rank denotes the relative position of the television series with respect to other prime time shows on the cw , fox , nbc , cbs , and abc
+77. reg season
+78. release - year of first charted record
+79. release date
+80. release price ( usd )
+81. role / episode
+82. round
+83. round of 16
+84. round of 32
+85. season
+86. season finale
+87. season premiere
+88. seasons
+89. second quarter
+90. start
+91. starts
+92. stolen ends
+93. surface run off ( km 3 / year )
+94. third quarter
+95. time
+96. time ( et )
+97. time / retired
+98. timeslot
+99. timeslot ( est )
+100. tv broadcast
+101. tv season
+102. tv time
+103. week
+104. week 1
+105. week 2
+106. week 3
+107. week 4
+108. week 5
+109. weeks
+110. weeks at 1
+111. weeks at number one
+112. year
+113. year ( ceremony )
+114. year ( s ) of manufacture
+115. year ( s ) won
+116. year began making autos
+117. year born
+118. year drafted
+119. year founded
+120. year joined
+121. year joined gm
+122. year left
+123. year made
+124. year withdrawn
+125. years
+126. years active
+127. years as tallest
+128. years for grizzlies
+129. years for jazz
+130. years for rockets
+131. years played
+
+Total: 131 unique time-related column names

@@ -1,0 +1,1022 @@
+[
+    {
+        "topic": "2011 british gt season",
+        "wiki": "https://en.wikipedia.org/wiki/2011_British_GT_season",
+        "url": "https://raw.githubusercontent.com/wenhuchen/Table-Fact-Checking/master/data/all_csv/1-30062172-3.html.csv",
+        "action": "count",
+        "sent": "there were twelve occasions where the length was sixty minutes .",
+        "annotation": {
+            "scope": "all",
+            "criterion": "equal",
+            "value": "60 mins",
+            "result": "12",
+            "col": "4",
+            "subset": null
+        },
+        "logic": {
+            "func": "eq",
+            "args": [
+                {
+                    "func": "count",
+                    "args": [
+                        {
+                            "func": "filter_str_eq",
+                            "args": [
+                                "all_rows",
+                                "length",
+                                "60 mins"
+                            ],
+                            "result": null,
+                            "ind": 0,
+                            "tointer": "select the rows whose length record fuzzily matches to 60 mins .",
+                            "tostr": "filter_eq { all_rows ; length ; 60 mins }"
+                        }
+                    ],
+                    "result": "12",
+                    "ind": 1,
+                    "tostr": "count { filter_eq { all_rows ; length ; 60 mins } }",
+                    "tointer": "select the rows whose length record fuzzily matches to 60 mins . the number of such rows is 12 ."
+                },
+                "12"
+            ],
+            "result": true,
+            "ind": 2,
+            "tostr": "eq { count { filter_eq { all_rows ; length ; 60 mins } } ; 12 } = true",
+            "tointer": "select the rows whose length record fuzzily matches to 60 mins . the number of such rows is 12 ."
+        },
+        "logic_str": "eq { count { filter_eq { all_rows ; length ; 60 mins } } ; 12 } = true",
+        "interpret": "select the rows whose length record fuzzily matches to 60 mins . the number of such rows is 12 .",
+        "num_func": 3,
+        "nid": 3,
+        "g_ids": {
+            "eq_2": 2,
+            "result_3": 3,
+            "count_1": 1,
+            "filter_str_eq_0": 0,
+            "all_rows_4": 4,
+            "length_5": 5,
+            "60 mins_6": 6,
+            "12_7": 7
+        },
+        "g_ids_features": {
+            "eq_2": "eq",
+            "result_3": "true",
+            "count_1": "count",
+            "filter_str_eq_0": "filter_str_eq",
+            "all_rows_4": "all_rows",
+            "length_5": "length",
+            "60 mins_6": "60 mins",
+            "12_7": "12"
+        },
+        "g_adj": {
+            "eq_2": [
+                3
+            ],
+            "result_3": [],
+            "count_1": [
+                2
+            ],
+            "filter_str_eq_0": [
+                1
+            ],
+            "all_rows_4": [
+                0
+            ],
+            "length_5": [
+                0
+            ],
+            "60 mins_6": [
+                0
+            ],
+            "12_7": [
+                2
+            ]
+        },
+        "table_header": [
+            "round",
+            "circuit",
+            "date",
+            "length",
+            "pole position",
+            "gt3 winner",
+            "gt4 winner"
+        ],
+        "table_cont": [
+            [
+                "1",
+                "oulton park",
+                "25 april",
+                "60 mins",
+                "no 5 scuderia vittoria",
+                "no 1 trackspeed",
+                "no 44 abg motorsport"
+            ],
+            [
+                "1",
+                "oulton park",
+                "25 april",
+                "60 mins",
+                "charles bateman michael lyons",
+                "david ashburn richard westbrook",
+                "peter belshaw marcus clutton"
+            ],
+            [
+                "2",
+                "oulton park",
+                "25 april",
+                "60 mins",
+                "no 1 trackspeed",
+                "no 5 scuderia vittoria",
+                "no 42 century motorsport"
+            ],
+            [
+                "2",
+                "oulton park",
+                "25 april",
+                "60 mins",
+                "david ashburn richard westbrook",
+                "charles bateman michael lyons",
+                "jake rattenbury josh wakefield"
+            ],
+            [
+                "3",
+                "snetterton 300",
+                "15 may",
+                "120 mins",
+                "no 10 crs racing",
+                "no 23 united autosports",
+                "no 44 abg motorsport"
+            ],
+            [
+                "3",
+                "snetterton 300",
+                "15 may",
+                "120 mins",
+                "glynn geddie jim geddie",
+                "matt bell michael guasch",
+                "peter belshaw marcus clutton"
+            ],
+            [
+                "4",
+                "brands hatch",
+                "19 june",
+                "120 mins",
+                "no 21 mtech",
+                "no 2 trackspeed",
+                "no 44 abg motorsport"
+            ],
+            [
+                "4",
+                "brands hatch",
+                "19 june",
+                "120 mins",
+                "duncan cameron matt griffin",
+                "tim bridgman gregor fisken",
+                "peter belshaw marcus clutton"
+            ],
+            [
+                "5",
+                "spa - francorchamps",
+                "9 july",
+                "60 mins",
+                "no 59 mclaren gt",
+                "no 1 trackspeed",
+                "no 50 scuderia vittoria"
+            ],
+            [
+                "5",
+                "spa - francorchamps",
+                "9 july",
+                "60 mins",
+                "chris goodwin andrew kirkaldy",
+                "david ashburn richard westbrook",
+                "dan denis david mcdonald"
+            ],
+            [
+                "6",
+                "spa - francorchamps",
+                "9 july",
+                "60 mins",
+                "no 1 trackspeed",
+                "no 21 mtech",
+                "no 48 lotus sport uk"
+            ],
+            [
+                "6",
+                "spa - francorchamps",
+                "9 july",
+                "60 mins",
+                "david ashburn richard westbrook",
+                "duncan cameron matt griffin",
+                "phil glew ollie jackson"
+            ],
+            [
+                "7",
+                "rockingham",
+                "4 september",
+                "60 mins",
+                "no 23 united autosports",
+                "no 7 beechdean motorsport",
+                "no 50 scuderia vittoria"
+            ],
+            [
+                "7",
+                "rockingham",
+                "4 september",
+                "60 mins",
+                "matt bell michael guasch",
+                "jonathan adam andrew howard",
+                "dan denis david mcdonald"
+            ],
+            [
+                "8",
+                "rockingham",
+                "4 september",
+                "60 mins",
+                "no 2 trackspeed",
+                "no 11 crs racing",
+                "no 50 scuderia vittoria"
+            ],
+            [
+                "8",
+                "rockingham",
+                "4 september",
+                "60 mins",
+                "tim bridgman gregor fisken",
+                "alex mortimer andrew tate",
+                "dan denis david mcdonald"
+            ],
+            [
+                "9",
+                "donington park",
+                "25 september",
+                "180 mins",
+                "no 1 trackspeed",
+                "no 5 scuderia vittoria",
+                "no 48 lotus sport uk"
+            ],
+            [
+                "9",
+                "donington park",
+                "25 september",
+                "180 mins",
+                "david ashburn stephen jelley",
+                "charles bateman michael lyons",
+                "phil glew james nash"
+            ],
+            [
+                "10",
+                "silverstone arena",
+                "8 october",
+                "120 mins",
+                "no 7 beechdean motorsport",
+                "no 7 beechdean motorsport",
+                "no 48 lotus sport uk"
+            ]
+        ]
+    },{
+        "topic": "list of cities , towns and villages in vojvodina",
+        "wiki": "https://en.wikipedia.org/wiki/List_of_cities%2C_towns_and_villages_in_Vojvodina",
+        "url": "https://raw.githubusercontent.com/wenhuchen/Table-Fact-Checking/master/data/all_csv/1-2562572-12.html.csv",
+        "action": "unique",
+        "sent": "pivnice is the only settlement in vojvodina with slovaks as the largest ethnic group .",
+        "annotation": {
+            "scope": "all",
+            "row": "11",
+            "col": "5",
+            "col_other": "1",
+            "criterion": "equal",
+            "value": "slovaks",
+            "subset": null
+        },
+        "logic": {
+            "func": "and",
+            "args": [
+                {
+                    "func": "only",
+                    "args": [
+                        {
+                            "func": "filter_str_eq",
+                            "args": [
+                                "all_rows",
+                                "largest ethnic group ( 2002 )",
+                                "slovaks"
+                            ],
+                            "result": null,
+                            "ind": 0,
+                            "tointer": "select the rows whose largest ethnic group ( 2002 ) record fuzzily matches to slovaks .",
+                            "tostr": "filter_eq { all_rows ; largest ethnic group ( 2002 ) ; slovaks }"
+                        }
+                    ],
+                    "result": true,
+                    "ind": 1,
+                    "tostr": "only { filter_eq { all_rows ; largest ethnic group ( 2002 ) ; slovaks } }",
+                    "tointer": "select the rows whose largest ethnic group ( 2002 ) record fuzzily matches to slovaks . there is only one such row in the table ."
+                },
+                {
+                    "func": "str_eq",
+                    "args": [
+                        {
+                            "func": "str_hop",
+                            "args": [
+                                {
+                                    "func": "filter_str_eq",
+                                    "args": [
+                                        "all_rows",
+                                        "largest ethnic group ( 2002 )",
+                                        "slovaks"
+                                    ],
+                                    "result": null,
+                                    "ind": 0,
+                                    "tointer": "select the rows whose largest ethnic group ( 2002 ) record fuzzily matches to slovaks .",
+                                    "tostr": "filter_eq { all_rows ; largest ethnic group ( 2002 ) ; slovaks }"
+                                },
+                                "settlement"
+                            ],
+                            "result": "pivnice",
+                            "ind": 2,
+                            "tostr": "hop { filter_eq { all_rows ; largest ethnic group ( 2002 ) ; slovaks } ; settlement }"
+                        },
+                        "pivnice"
+                    ],
+                    "result": true,
+                    "ind": 3,
+                    "tostr": "eq { hop { filter_eq { all_rows ; largest ethnic group ( 2002 ) ; slovaks } ; settlement } ; pivnice }",
+                    "tointer": "the settlement record of this unqiue row is pivnice ."
+                }
+            ],
+            "result": true,
+            "ind": 4,
+            "tostr": "and { only { filter_eq { all_rows ; largest ethnic group ( 2002 ) ; slovaks } } ; eq { hop { filter_eq { all_rows ; largest ethnic group ( 2002 ) ; slovaks } ; settlement } ; pivnice } } = true",
+            "tointer": "select the rows whose largest ethnic group ( 2002 ) record fuzzily matches to slovaks . there is only one such row in the table . the settlement record of this unqiue row is pivnice ."
+        },
+        "logic_str": "and { only { filter_eq { all_rows ; largest ethnic group ( 2002 ) ; slovaks } } ; eq { hop { filter_eq { all_rows ; largest ethnic group ( 2002 ) ; slovaks } ; settlement } ; pivnice } } = true",
+        "interpret": "select the rows whose largest ethnic group ( 2002 ) record fuzzily matches to slovaks . there is only one such row in the table . the settlement record of this unqiue row is pivnice .",
+        "num_func": 6,
+        "nid": 5,
+        "g_ids": {
+            "and_4": 4,
+            "result_5": 5,
+            "only_1": 1,
+            "filter_str_eq_0": 0,
+            "all_rows_6": 6,
+            "largest ethnic group (2002)_7": 7,
+            "slovaks_8": 8,
+            "str_eq_3": 3,
+            "str_hop_2": 2,
+            "settlement_9": 9,
+            "pivnice_10": 10
+        },
+        "g_ids_features": {
+            "and_4": "and",
+            "result_5": "true",
+            "only_1": "only",
+            "filter_str_eq_0": "filter_str_eq",
+            "all_rows_6": "all_rows",
+            "largest ethnic group (2002)_7": "largest ethnic group ( 2002 )",
+            "slovaks_8": "slovaks",
+            "str_eq_3": "str_eq",
+            "str_hop_2": "str_hop",
+            "settlement_9": "settlement",
+            "pivnice_10": "pivnice"
+        },
+        "g_adj": {
+            "and_4": [
+                5
+            ],
+            "result_5": [],
+            "only_1": [
+                4
+            ],
+            "filter_str_eq_0": [
+                1,
+                2
+            ],
+            "all_rows_6": [
+                0
+            ],
+            "largest ethnic group (2002)_7": [
+                0
+            ],
+            "slovaks_8": [
+                0
+            ],
+            "str_eq_3": [
+                4
+            ],
+            "str_hop_2": [
+                3
+            ],
+            "settlement_9": [
+                2
+            ],
+            "pivnice_10": [
+                3
+            ]
+        },
+        "table_header": [
+            "settlement",
+            "cyrillic name other names",
+            "type",
+            "population ( 2011 )",
+            "largest ethnic group ( 2002 )",
+            "dominant religion ( 2002 )"
+        ],
+        "table_cont": [
+            [
+                "ba\u010dka palanka",
+                "\u0431\u0430\u0447\u043a\u0430 \u043f\u0430\u043b\u0430\u043d\u043a\u0430",
+                "town",
+                "28239",
+                "serbs",
+                "orthodox christianity"
+            ],
+            [
+                "\u010delarevo",
+                "\u0447\u0435\u043b\u0430\u0440\u0435\u0432\u043e",
+                "village",
+                "4831",
+                "serbs",
+                "orthodox christianity"
+            ],
+            [
+                "despotovo",
+                "\u0434\u0435\u0441\u043f\u043e\u0442\u043e\u0432\u043e",
+                "village",
+                "1853",
+                "serbs",
+                "orthodox christianity"
+            ],
+            [
+                "gajdobra",
+                "\u0433\u0430\u0458\u0434\u043e\u0431\u0440\u0430",
+                "village",
+                "2578",
+                "serbs",
+                "orthodox christianity"
+            ],
+            [
+                "kara\u0111or\u0111evo",
+                "\u043a\u0430\u0440\u0430\u0452\u043e\u0440\u0452\u0435\u0432\u043e",
+                "village",
+                "738",
+                "serbs",
+                "orthodox christianity"
+            ],
+            [
+                "mladenovo",
+                "\u043c\u043b\u0430\u0434\u0435\u043d\u043e\u0432\u043e",
+                "village",
+                "2679",
+                "serbs",
+                "orthodox christianity"
+            ],
+            [
+                "ne\u0161tin",
+                "\u043d\u0435\u0448\u0442\u0438\u043d",
+                "village",
+                "794",
+                "serbs",
+                "orthodox christianity"
+            ],
+            [
+                "nova gajdobra",
+                "\u043d\u043e\u0432\u0430 \u0433\u0430\u0458\u0434\u043e\u0431\u0440\u0430",
+                "village",
+                "1220",
+                "serbs",
+                "orthodox christianity"
+            ],
+            [
+                "obrovac",
+                "\u043e\u0431\u0440\u043e\u0432\u0430\u0446",
+                "village",
+                "2944",
+                "serbs",
+                "orthodox christianity"
+            ],
+            [
+                "parage",
+                "\u043f\u0430\u0440\u0430\u0433\u0435",
+                "village",
+                "921",
+                "serbs",
+                "orthodox christianity"
+            ],
+            [
+                "pivnice",
+                "\u043f\u0438\u0432\u043d\u0438\u0446\u0435 ( slovak : pivnice )",
+                "village",
+                "3337",
+                "slovaks",
+                "protestantism"
+            ],
+            [
+                "silba\u0161",
+                "\u0441\u0438\u043b\u0431\u0430\u0448",
+                "village",
+                "2467",
+                "serbs",
+                "orthodox christianity"
+            ],
+            [
+                "tovari\u0161evo",
+                "\u0442\u043e\u0432\u0430\u0440\u0438\u0448\u0435\u0432\u043e",
+                "village",
+                "2657",
+                "serbs",
+                "orthodox christianity"
+            ]
+        ]
+    },
+    {
+        "topic": "mannar district",
+        "wiki": "https://en.wikipedia.org/wiki/Mannar_District",
+        "url": "https://raw.githubusercontent.com/wenhuchen/Table-Fact-Checking/master/data/all_csv/1-24574438-1.html.csv",
+        "action": "ordinal",
+        "sent": "chilawathurai had the 2nd lowest population density among main towns in the mannar district .",
+        "annotation": {
+            "row": "4",
+            "col": "11",
+            "order": "2",
+            "col_other": "2",
+            "max_or_min": "min_to_max",
+            "value_mentioned": "no",
+            "scope": "all",
+            "subset": null
+        },
+        "logic": {
+            "func": "str_eq",
+            "args": [
+                {
+                    "func": "str_hop",
+                    "args": [
+                        {
+                            "func": "nth_argmin",
+                            "args": [
+                                "all_rows",
+                                "population density ( / km 2 )",
+                                "2"
+                            ],
+                            "result": null,
+                            "ind": 0,
+                            "tostr": "nth_argmin { all_rows ; population density ( / km 2 ) ; 2 }"
+                        },
+                        "main town"
+                    ],
+                    "result": "chilawathurai",
+                    "ind": 1,
+                    "tostr": "hop { nth_argmin { all_rows ; population density ( / km 2 ) ; 2 } ; main town }"
+                },
+                "chilawathurai"
+            ],
+            "result": true,
+            "ind": 2,
+            "tostr": "eq { hop { nth_argmin { all_rows ; population density ( / km 2 ) ; 2 } ; main town } ; chilawathurai } = true",
+            "tointer": "select the row whose population density ( / km 2 ) record of all rows is 2nd minimum . the main town record of this row is chilawathurai ."
+        },
+        "logic_str": "eq { hop { nth_argmin { all_rows ; population density ( / km 2 ) ; 2 } ; main town } ; chilawathurai } = true",
+        "interpret": "select the row whose population density ( / km 2 ) record of all rows is 2nd minimum . the main town record of this row is chilawathurai .",
+        "num_func": 3,
+        "nid": 3,
+        "g_ids": {
+            "str_eq_2": 2,
+            "result_3": 3,
+            "str_hop_1": 1,
+            "nth_argmin_0": 0,
+            "all_rows_4": 4,
+            "population density ( / km 2 )_5": 5,
+            "2_6": 6,
+            "main town_7": 7,
+            "chilawathurai_8": 8
+        },
+        "g_ids_features": {
+            "str_eq_2": "str_eq",
+            "result_3": "true",
+            "str_hop_1": "str_hop",
+            "nth_argmin_0": "nth_argmin",
+            "all_rows_4": "all_rows",
+            "population density ( / km 2 )_5": "population density ( / km 2 )",
+            "2_6": "2",
+            "main town_7": "main town",
+            "chilawathurai_8": "chilawathurai"
+        },
+        "g_adj": {
+            "str_eq_2": [
+                3
+            ],
+            "result_3": [],
+            "str_hop_1": [
+                2
+            ],
+            "nth_argmin_0": [
+                1
+            ],
+            "all_rows_4": [
+                0
+            ],
+            "population density ( / km 2 )_5": [
+                0
+            ],
+            "2_6": [
+                0
+            ],
+            "main town_7": [
+                1
+            ],
+            "chilawathurai_8": [
+                2
+            ]
+        },
+        "table_header": [
+            "ds division",
+            "main town",
+            "gn divisions",
+            "area ( km 2 )",
+            "sri lankan tamil",
+            "sri lankan moors",
+            "sinhalese",
+            "indian tamil",
+            "other",
+            "total",
+            "population density ( / km 2 )"
+        ],
+        "table_cont": [
+            [
+                "madhu",
+                "madhu",
+                "17",
+                "553",
+                "6793",
+                "559",
+                "273",
+                "5",
+                "1",
+                "7631",
+                "14"
+            ],
+            [
+                "mannar",
+                "mannar",
+                "49",
+                "212",
+                "40865",
+                "8982",
+                "953",
+                "131",
+                "6",
+                "50937",
+                "240"
+            ],
+            [
+                "manthai west",
+                "adampan",
+                "36",
+                "608",
+                "12993",
+                "1123",
+                "337",
+                "177",
+                "0",
+                "14630",
+                "24"
+            ],
+            [
+                "musali",
+                "chilawathurai",
+                "20",
+                "475",
+                "3042",
+                "4818",
+                "147",
+                "2",
+                "0",
+                "8009",
+                "17"
+            ],
+            [
+                "nanaddan",
+                "nanaddan",
+                "31",
+                "148",
+                "16875",
+                "605",
+                "251",
+                "79",
+                "34",
+                "17844",
+                "121"
+            ]
+        ]
+    },
+    {
+        "topic": "fiba eurobasket 2007 squads",
+        "wiki": "https://en.wikipedia.org/wiki/FIBA_EuroBasket_2007_squads",
+        "url": "https://raw.githubusercontent.com/wenhuchen/Table-Fact-Checking/master/data/all_csv/2-12962773-16.html.csv",
+        "action": "superlative",
+        "sent": "the oldest player in the fiba eurobasket 2007 squads was adam w\u00f3jcik .",
+        "annotation": {
+            "scope": "all",
+            "col_superlative": "4",
+            "row_superlative": "7",
+            "value_mentioned": "no",
+            "max_or_min": "min",
+            "other_col": "1",
+            "subset": null
+        },
+        "logic": {
+            "func": "str_eq",
+            "args": [
+                {
+                    "func": "str_hop",
+                    "args": [
+                        {
+                            "func": "argmin",
+                            "args": [
+                                "all_rows",
+                                "year born"
+                            ],
+                            "result": null,
+                            "ind": 0,
+                            "tostr": "argmin { all_rows ; year born }"
+                        },
+                        "player"
+                    ],
+                    "result": "adam w\u00f3jcik",
+                    "ind": 1,
+                    "tostr": "hop { argmin { all_rows ; year born } ; player }"
+                },
+                "adam w\u00f3jcik"
+            ],
+            "result": true,
+            "ind": 2,
+            "tostr": "eq { hop { argmin { all_rows ; year born } ; player } ; adam w\u00f3jcik } = true",
+            "tointer": "select the row whose year born record of all rows is minimum . the player record of this row is adam w\u00f3jcik ."
+        },
+        "logic_str": "eq { hop { argmin { all_rows ; year born } ; player } ; adam w\u00f3jcik } = true",
+        "interpret": "select the row whose year born record of all rows is minimum . the player record of this row is adam w\u00f3jcik .",
+        "num_func": 3,
+        "nid": 3,
+        "g_ids": {
+            "str_eq_2": 2,
+            "result_3": 3,
+            "str_hop_1": 1,
+            "argmin_0": 0,
+            "all_rows_4": 4,
+            "year born_5": 5,
+            "player_6": 6,
+            "adam w\u00f3jcik_7": 7
+        },
+        "g_ids_features": {
+            "str_eq_2": "str_eq",
+            "result_3": "true",
+            "str_hop_1": "str_hop",
+            "argmin_0": "argmin",
+            "all_rows_4": "all_rows",
+            "year born_5": "year born",
+            "player_6": "player",
+            "adam w\u00f3jcik_7": "adam w\u00f3jcik"
+        },
+        "g_adj": {
+            "str_eq_2": [
+                3
+            ],
+            "result_3": [],
+            "str_hop_1": [
+                2
+            ],
+            "argmin_0": [
+                1
+            ],
+            "all_rows_4": [
+                0
+            ],
+            "year born_5": [
+                0
+            ],
+            "player_6": [
+                1
+            ],
+            "adam w\u00f3jcik_7": [
+                2
+            ]
+        },
+        "table_header": [
+            "player",
+            "height",
+            "position",
+            "year born",
+            "current club"
+        ],
+        "table_cont": [
+            [
+                "bart\u0142omiej wo\u0142oszyn",
+                "1.97",
+                "forward",
+                "1986",
+                "anwil wloclawek"
+            ],
+            [
+                "andrzej pluta",
+                "1.81",
+                "guard",
+                "1974",
+                "anwil wloclawek"
+            ],
+            [
+                "robert skibniewski",
+                "1.82",
+                "guard",
+                "1983",
+                "bot tur\u00f3w"
+            ],
+            [
+                "robert witka",
+                "2.06",
+                "forward",
+                "1981",
+                "bot tur\u00f3w"
+            ],
+            [
+                "filip dylewicz",
+                "2.02",
+                "forward",
+                "1980",
+                "prokom trefl sopot"
+            ],
+            [
+                "rados\u0142aw hy\u017cy",
+                "2.00",
+                "forward",
+                "1977",
+                "\u015bl\u0105sk wroc\u0142aw"
+            ],
+            [
+                "adam w\u00f3jcik",
+                "2.08",
+                "forward",
+                "1970",
+                "upea capo d'orlando"
+            ],
+            [
+                "kamil pietras",
+                "2.04",
+                "forward",
+                "1988",
+                "olimpija ljubljana"
+            ],
+            [
+                "szymon szewczyk",
+                "2.09",
+                "center",
+                "1982",
+                "lokomotiv rostov"
+            ],
+            [
+                "iwo kitzinger",
+                "1.88",
+                "guard",
+                "1985",
+                "bot tur\u00f3w"
+            ],
+            [
+                "przemys\u0142aw frasunkiewicz",
+                "2.01",
+                "forward",
+                "1979",
+                "energa czarni"
+            ],
+            [
+                "\u0142ukasz koszarek",
+                "1.87",
+                "guard",
+                "1984",
+                "anwil wloclawek"
+            ]
+        ]
+    },{
+        "topic": "bwf super series masters finals",
+        "wiki": "https://en.wikipedia.org/wiki/BWF_Super_Series_Masters_Finals",
+        "url": "https://raw.githubusercontent.com/wenhuchen/Table-Fact-Checking/master/data/all_csv/1-20361783-1.html.csv",
+        "action": "unique",
+        "sent": "zhou mi only played in one bwf super series masters finals tournament .",
+        "annotation": {
+            "scope": "all",
+            "row": "5",
+            "col": "3",
+            "col_other": "n/a",
+            "criterion": "equal",
+            "value": "zhou mi",
+            "subset": null
+        },
+        "logic": {
+            "func": "only",
+            "args": [
+                {
+                    "func": "filter_str_eq",
+                    "args": [
+                        "all_rows",
+                        "womens singles",
+                        "zhou mi"
+                    ],
+                    "result": null,
+                    "ind": 0,
+                    "tointer": "select the rows whose womens singles record fuzzily matches to zhou mi .",
+                    "tostr": "filter_eq { all_rows ; womens singles ; zhou mi }"
+                }
+            ],
+            "result": true,
+            "ind": 1,
+            "tostr": "only { filter_eq { all_rows ; womens singles ; zhou mi } } = true",
+            "tointer": "select the rows whose womens singles record fuzzily matches to zhou mi . there is only one such row in the table ."
+        },
+        "logic_str": "only { filter_eq { all_rows ; womens singles ; zhou mi } } = true",
+        "interpret": "select the rows whose womens singles record fuzzily matches to zhou mi . there is only one such row in the table .",
+        "num_func": 2,
+        "nid": 2,
+        "g_ids": {
+            "only_1": 1,
+            "result_2": 2,
+            "filter_str_eq_0": 0,
+            "all_rows_3": 3,
+            "womens singles_4": 4,
+            "zhou mi_5": 5
+        },
+        "g_ids_features": {
+            "only_1": "only",
+            "result_2": "true",
+            "filter_str_eq_0": "filter_str_eq",
+            "all_rows_3": "all_rows",
+            "womens singles_4": "womens singles",
+            "zhou mi_5": "zhou mi"
+        },
+        "g_adj": {
+            "only_1": [
+                2
+            ],
+            "result_2": [],
+            "filter_str_eq_0": [
+                1
+            ],
+            "all_rows_3": [
+                0
+            ],
+            "womens singles_4": [
+                0
+            ],
+            "zhou mi_5": [
+                0
+            ]
+        },
+        "table_header": [
+            "year",
+            "mens singles",
+            "womens singles",
+            "mens doubles",
+            "womens doubles",
+            "mixed doubles"
+        ],
+        "table_cont": [
+            [
+                "2012",
+                "chen long",
+                "li xuerui",
+                "mathias boe carsten mogensen",
+                "wang xiaoli yu yang",
+                "joachim fischer nielsen christinna pedersen"
+            ],
+            [
+                "2011",
+                "lin dan",
+                "wang yihan",
+                "mathias boe carsten mogensen",
+                "wang xiaoli yu yang",
+                "zhang nan zhao yunlei"
+            ],
+            [
+                "2010",
+                "lee chong wei",
+                "wang shixian",
+                "mathias boe carsten mogensen",
+                "wang xiaoli yu yang",
+                "zhang nan zhao yunlei"
+            ],
+            [
+                "2009",
+                "lee chong wei",
+                "wong mew choo",
+                "jung jae - sung lee yong - dae",
+                "wong pei tty chin eei hui",
+                "joachim fischer nielsen christinna pedersen"
+            ],
+            [
+                "2008",
+                "lee chong wei",
+                "zhou mi",
+                "koo kien keat tan boon heong",
+                "wong pei tty chin eei hui",
+                "thomas laybourn kamilla rytter juhl"
+            ]
+        ]
+    },
+	]

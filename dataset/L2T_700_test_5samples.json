@@ -1,0 +1,392 @@
+[
+  {
+    "id": "ad347c89",
+    "topic": "espn sunday night football results ( 1987 - 2005 )",
+    "table_header": [
+      "date",
+      "visiting team",
+      "final score",
+      "host team",
+      "stadium"
+    ],
+    "table_cont": [
+      [
+        "november 8",
+        "new england patriots",
+        "10 - 17",
+        "new york giants",
+        "giants stadium"
+      ],
+      [
+        "november 15",
+        "los angeles raiders",
+        "14 - 16",
+        "san diego chargers",
+        "jack murphy stadium"
+      ],
+      [
+        "november 22",
+        "miami dolphins",
+        "20 - 14",
+        "dallas cowboys",
+        "texas stadium"
+      ],
+      [
+        "november 29",
+        "cleveland browns",
+        "24 - 38",
+        "san francisco 49ers",
+        "candlestick park"
+      ],
+      [
+        "december 6",
+        "chicago bears",
+        "30 - 24",
+        "minnesota vikings",
+        "hubert h humphrey metrodome"
+      ],
+      [
+        "december 13",
+        "denver broncos",
+        "21 - 28",
+        "seattle seahawks",
+        "kingdome"
+      ],
+      [
+        "december 20",
+        "washington redskins",
+        "21 - 23",
+        "miami dolphins",
+        "joe robbie stadium"
+      ],
+      [
+        "december 27",
+        "los angeles rams",
+        "0 - 48",
+        "san francisco 49ers",
+        "candlestick park"
+      ]
+    ],
+    "logic_str": "most_greater_eq { filter_eq { all_rows ; date ; december } ; final score ; 20 for both teams } = true",
+    "table_text": "date | visiting team | final score | host team | stadium\n---- | ------------- | ----------- | --------- | -------\nnovember 8 | new england patriots | 10 - 17 | new york giants | giants stadium\nnovember 15 | los angeles raiders | 14 - 16 | san diego chargers | jack murphy stadium\nnovember 22 | miami dolphins | 20 - 14 | dallas cowboys | texas stadium\nnovember 29 | cleveland browns | 24 - 38 | san francisco 49ers | candlestick park\ndecember 6 | chicago bears | 30 - 24 | minnesota vikings | hubert h humphrey metrodome\ndecember 13 | denver broncos | 21 - 28 | seattle seahawks | kingdome\ndecember 20 | washington redskins | 21 - 23 | miami dolphins | joe robbie stadium\ndecember 27 | los angeles rams | 0 - 48 | san francisco 49ers | candlestick park"
+  },
+  {
+    "id": "8774071c",
+    "topic": "cross point ( album )",
+    "table_header": [
+      "region",
+      "date",
+      "label",
+      "format",
+      "catalog"
+    ],
+    "table_cont": [
+      [
+        "japan",
+        "october 21 , 1981",
+        "alfa records",
+        "stereo lp",
+        "alr - 28029"
+      ],
+      [
+        "japan",
+        "november 25 , 1984",
+        "alfa records",
+        "cd",
+        "38xa - 24"
+      ],
+      [
+        "japan",
+        "january 25 , 1987",
+        "alfa records",
+        "cd",
+        "32xa - 118"
+      ],
+      [
+        "japan",
+        "march 21 , 1992",
+        "alfa records",
+        "cd",
+        "alca - 276"
+      ],
+      [
+        "japan",
+        "july 27 , 1994",
+        "alfa records",
+        "cd",
+        "alca - 9006"
+      ],
+      [
+        "japan",
+        "july 23 , 1998",
+        "alfa records",
+        "cd",
+        "alca - 9201"
+      ],
+      [
+        "japan",
+        "december 19 , 2001",
+        "village records",
+        "ed remaster cd",
+        "vrcl - 2206"
+      ],
+      [
+        "japan",
+        "january 17 , 2002",
+        "village records",
+        "ed remaster cd",
+        "vrcl - 2226"
+      ],
+      [
+        "japan",
+        "may 27 , 2009",
+        "sony music direct",
+        "ed remaster cd",
+        "mhcl - 20008"
+      ]
+    ],
+    "logic_str": "and { only { filter_eq { filter_eq { all_rows ; label ; alfa records } ; format ; stereo lp } } ; eq { hop { filter_eq { filter_eq { all_rows ; label ; alfa records } ; format ; stereo lp } ; date } ; october 21 , 1981 } } = true",
+    "table_text": "region | date | label | format | catalog\n------ | ---- | ----- | ------ | -------\njapan | october 21 , 1981 | alfa records | stereo lp | alr - 28029\njapan | november 25 , 1984 | alfa records | cd | 38xa - 24\njapan | january 25 , 1987 | alfa records | cd | 32xa - 118\njapan | march 21 , 1992 | alfa records | cd | alca - 276\njapan | july 27 , 1994 | alfa records | cd | alca - 9006\njapan | july 23 , 1998 | alfa records | cd | alca - 9201\njapan | december 19 , 2001 | village records | ed remaster cd | vrcl - 2206\njapan | january 17 , 2002 | village records | ed remaster cd | vrcl - 2226\njapan | may 27 , 2009 | sony music direct | ed remaster cd | mhcl - 20008"
+  },
+  {
+    "id": "525dd376",
+    "topic": "1963 england rugby union tour of australasia",
+    "table_header": [
+      "opposing team",
+      "against",
+      "date",
+      "venue",
+      "status"
+    ],
+    "table_cont": [
+      [
+        "wellington",
+        "9",
+        "may 18 , 1963",
+        "athletic park , wellington",
+        "tour match"
+      ],
+      [
+        "otago",
+        "14",
+        "may 22 , 1963",
+        "carisbrook , dunedin",
+        "tour match"
+      ],
+      [
+        "new zealand",
+        "21",
+        "may 25 , 1963",
+        "eden park , auckland",
+        "test match"
+      ],
+      [
+        "hawke 's bay",
+        "20",
+        "may 28 , 1963",
+        "mclean park , napier",
+        "tour match"
+      ],
+      [
+        "new zealand",
+        "9",
+        "june 1 , 1963",
+        "lancaster park , christchurch",
+        "test match"
+      ],
+      [
+        "australia",
+        "18",
+        "june 4 , 1963",
+        "sportground , sydney",
+        "test match"
+      ]
+    ],
+    "logic_str": "eq { count { filter_all { all_rows ; venue } } ; 6 } = true",
+    "table_text": "opposing team | against | date | venue | status\n------------- | ------- | ---- | ----- | ------\nwellington | 9 | may 18 , 1963 | athletic park , wellington | tour match\notago | 14 | may 22 , 1963 | carisbrook , dunedin | tour match\nnew zealand | 21 | may 25 , 1963 | eden park , auckland | test match\nhawke 's bay | 20 | may 28 , 1963 | mclean park , napier | tour match\nnew zealand | 9 | june 1 , 1963 | lancaster park , christchurch | test match\naustralia | 18 | june 4 , 1963 | sportground , sydney | test match"
+  },
+  {
+    "id": "ff6e9186",
+    "topic": "2007 tampa bay storm season",
+    "table_header": [
+      "player",
+      "rec",
+      "yards",
+      "avg",
+      "td 's",
+      "long"
+    ],
+    "table_cont": [
+      [
+        "lawrence samuels",
+        "11",
+        "116",
+        "10.5",
+        "1",
+        "18"
+      ],
+      [
+        "terrill shaw",
+        "9",
+        "112",
+        "12.4",
+        "4",
+        "26"
+      ],
+      [
+        "hank edwards",
+        "3",
+        "39",
+        "13",
+        "1",
+        "17"
+      ],
+      [
+        "karl williams",
+        "3",
+        "39",
+        "13",
+        "0",
+        "17"
+      ],
+      [
+        "marvin brown",
+        "1",
+        "9",
+        "9",
+        "0",
+        "9"
+      ]
+    ],
+    "logic_str": "eq { count { filter_eq { all_rows ; yards ; 39 } } ; 2 } = true",
+    "table_text": "player | rec | yards | avg | td 's | long\n------ | --- | ----- | --- | ----- | ----\nlawrence samuels | 11 | 116 | 10.5 | 1 | 18\nterrill shaw | 9 | 112 | 12.4 | 4 | 26\nhank edwards | 3 | 39 | 13 | 1 | 17\nkarl williams | 3 | 39 | 13 | 0 | 17\nmarvin brown | 1 | 9 | 9 | 0 | 9"
+  },
+  {
+    "id": "3b34ceb0",
+    "topic": "lucien aimar",
+    "table_header": [
+      "1965",
+      "1966",
+      "1967",
+      "1968",
+      "1969",
+      "1970",
+      "1971",
+      "1972"
+    ],
+    "table_cont": [
+      [
+        "dnf",
+        "1",
+        "6",
+        "7",
+        "30",
+        "17",
+        "9",
+        "17"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "nr",
+        "nr",
+        "6",
+        "nr",
+        "nr",
+        "nr",
+        "23",
+        "nr"
+      ],
+      [
+        "nr",
+        "16",
+        "14",
+        "nr",
+        "nr",
+        "nr",
+        "23",
+        "nr"
+      ],
+      [
+        "dne",
+        "dne",
+        "7",
+        "dne",
+        "dne",
+        "dne",
+        "dne",
+        "dne"
+      ],
+      [
+        "-",
+        "-",
+        "0",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "-",
+        "-",
+        "2",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "n / a",
+        "-",
+        "nr",
+        "-",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "11",
+        "dne",
+        "dne",
+        "9",
+        "dne",
+        "dne",
+        "dne",
+        "dne"
+      ],
+      [
+        "0",
+        "-",
+        "-",
+        "0",
+        "-",
+        "-",
+        "-",
+        "-"
+      ],
+      [
+        "nr",
+        "-",
+        "-",
+        "nr",
+        "-",
+        "-",
+        "-",
+        "-"
+      ]
+    ],
+    "logic_str": "only { filter_eq { all_rows ; 1965 ; dnf } } = true",
+    "table_text": "1965 | 1966 | 1967 | 1968 | 1969 | 1970 | 1971 | 1972\n---- | ---- | ---- | ---- | ---- | ---- | ---- | ----\ndnf - 9 | 1 | 6 | 7 | 30 | 17 | 9 | 17\n0 | 0 | 1 | 0 | 0 | 0 | 0 | 0\nnr | nr | 6 | nr | nr | nr | 23 | nr\nnr | 16 | 14 | nr | nr | nr | 23 | nr\ndne | dne | 7 | dne | dne | dne | dne | dne\n- | - | 0 | - | - | - | - | -\n- | - | 2 | - | - | - | - | -\nn / a | - | nr | - | - | - | - | -\n11 | dne | dne | 9 | dne | dne | dne | dne\n0 | - | - | 0 | - | - | - | -\nnr | - | - | nr | - | - | - | -"
+  }
+]
